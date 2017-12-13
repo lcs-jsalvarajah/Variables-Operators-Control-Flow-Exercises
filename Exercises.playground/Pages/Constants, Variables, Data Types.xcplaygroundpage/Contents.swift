@@ -35,7 +35,10 @@
  
  */
 // Answer Question 1 below
-
+let firstName = "Jheeven"
+let lastName = "Salvarajah"
+var currentGrade = 91
+let novemberRepot = 89
 /*:
  ### Question 2
  
@@ -47,6 +50,9 @@
  
  */
 // Answer Question 2 below
+let myAge = 16
+let otherAge = 40.0
+let averageAge = (Double(myAge) + otherAge) / 2
 
 
 /*:
@@ -55,6 +61,7 @@
  Create a variable that will track a person's favourite hobby. Select whatever name you feel is appropriate, but use the camel case convention when you name this variable.
  */
 // Answer Question 3 below
+var favouriteHobby = "Model kit building"
 
 
 /*:
@@ -65,6 +72,10 @@
  Use multiple `print` statements below to answer this question.
  */
 // Answer Question 4 below
+//Constants will never change whereas var statements can be changed
+let hoby = "MKB"
+print(hoby)
+
 
 
 /*:
@@ -76,6 +87,9 @@
  
  */
 // Answer Question 5 below
+// President: Dr.Evil, it's 1965, we don't have that kind of money! ;D
+// Dr Evil: Show me the money! Show me the money you bi***!
+let randomDemand = 1_000_000
 
 /*:
  ### Question 6
@@ -96,6 +110,10 @@
  
  */
 // Answer Question 6 below
+var date = 2017
+let text = "Cheese"
+
+//Invalid redecleratio of "text" can't put a string in a Int value
 
 
 /*:
@@ -106,7 +124,7 @@
  Use multiple `print` statements below to explain.
  */
 // Answer Question 7 below
-
+//It is considered as a type safe language because xcode will do everything in its power to notice incorrect code and will point it out as well as it will show you a solution to the issue with the code inputed. This saves coders from spending hours to de-bug problematic code. For example, In question 2, my code didnt run because I tried to add a double and an Int value together which does not work. Xcode clearly pointed out the problem and gave me a solution to fix it which save me quite a bit of time!
 
 
 
