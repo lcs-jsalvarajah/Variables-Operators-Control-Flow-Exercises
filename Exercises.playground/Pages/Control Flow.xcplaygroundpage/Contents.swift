@@ -38,6 +38,12 @@
 var temperature = 0
 
 // Answer Question 1 below
+if temperature == 0 {
+    print("Brr It’s Cold!")
+} else {
+    print("Its slightly Cold!")
+}
+
 
 
 /*:
@@ -51,6 +57,11 @@ var temperature = 0
 temperature = -20
 
 // Answer Question 2 below
+if temperature == 0 {
+    print("Brr it’s getting cold!")
+} else if temperature <= 0 {
+    print("Don’t leave water glass outside!")
+}
 
 
 /*:
@@ -69,6 +80,13 @@ temperature = -20
 temperature = 15
 
 // Answer Question 3 below
+    if temperature == 0 {
+        print("Brr Grab your winter jacket")
+    } else if temperature < 0 {
+        print("Don’t leave das water outside!")
+    } else {
+        print("May be Chilly!")
+    }
 
 /*:
  
@@ -85,9 +103,14 @@ temperature = 15
  */
 let hasRedHair = true
 let alwaysGetsAttentionBySayingGentsAndLadies = true
-let teachesOutdoorEd = true
+    let teachesOutdoorEd = false
 
 // Answer Question 4 below
+    if hasRedHair && alwaysGetsAttentionBySayingGentsAndLadies == true && teachesOutdoorEd == false   {
+        print("Need more information")
+    } else {
+        print("Not Gordon!")
+}
 
 
 /*:
@@ -109,6 +132,11 @@ let isComedy = false
 let starsTheRock = true
 
 // Answer Question 5 below
+if isAction && starsTheRock == true && isComedy == false {
+    print("Watch!")
+} else {
+    print("No watch")
+}
 
 
 /*:
@@ -127,6 +155,19 @@ let starsTheRock = true
  */
 
 // Answer Question 6 below
+var finalGrade = 0
+finalGrade = 89
+switch finalGrade {
+case 80...100 :
+    print("Good Job!")
+case 60...79 :
+    print("not great")
+case 50...59 :
+    print("Do better")
+default:
+    print("you suck")
+}
+
 
 
 
